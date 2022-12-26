@@ -1,0 +1,35 @@
+.header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	box-sizing: border-box;
+	padding: 28px 48px 56px 48px;
+	row-gap: 931px;
+	width: 100%
+}
+
+@media screen and (max-width: 1279px) and (min-width: 1024px) {
+	.header{
+padding: 28px 48px 48px 48px;
+width: 100%;
+row-gap: 675px;
+}
+}	
+
+
+@media screen and (max-width: 1023px) and (min-width: 768px) {
+	.header{
+padding: 28px 24px 48px 24px;
+min-width: 720px;
+row-gap: 467px;
+}
+}	
+
+
+@media screen and (max-width: 767px) and (min-width: 320px) {
+	.header{
+padding: 16px 16px 48px 16px;
+min-width: 288px;
+row-gap: 84px;
+}
+}	
