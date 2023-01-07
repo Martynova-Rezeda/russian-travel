@@ -7,6 +7,7 @@
 	line-height: 18px;
 	color: #FFFFFF;
 	margin-top: 33px;
+	padding: 0;
 }
 
 @media screen and (max-width: 1023px) and (min-width: 768px) {

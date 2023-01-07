@@ -16,8 +16,8 @@
 
 @media screen and (max-width: 767px) and (min-width: 320px) {
 	.place__url-heading {
-		margin: 32px auto 12px;
-		order: 2;
+		max-width: 288px;
+		margin: 0 auto 12px;
 		}
 }
 
