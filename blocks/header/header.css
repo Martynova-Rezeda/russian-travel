@@ -14,7 +14,7 @@
 max-width: 928px;
 row-gap: 675px;
 }
-}	
+}
 
 
 @media screen and (max-width: 1023px) and (min-width: 768px) {
@@ -22,7 +22,7 @@ row-gap: 675px;
 max-width: 720px;
 row-gap: 467px;
 }
-}	
+}
 
 
 @media screen and (max-width: 767px) and (min-width: 320px) {
@@ -31,4 +31,4 @@ padding-top: 16px;
 max-width: 288px;
 row-gap: 84px;
 }
-}	
+}
