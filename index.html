@@ -11,10 +11,10 @@
 	<main class="wrapper">
 		<header class="header">
 		  <img class="header__logo" src="./images/header-logo.svg" alt="Карта России">
-		  <nav class="header__lang-links">
-			<a href="#" class="header__lang-link">Ru</a>
+		  <div class="header__lang-links">
+			<a href="#" class="header__lang-link header__lang-link_active">Ru</a>
 			<a href="#" class="header__lang-link">En</a>
-		  </nav>
+			</div>
 		</header>
 		<section class="lead">
 			<h1 class="lead__title">Путешествия&nbsp; по России</h1>
@@ -35,7 +35,6 @@
 				</ul>
 		</section>
 		<section class="photo-grid">
-			<h3 class="photo-grid__title">Фотогалерея</h3>
 			<img src="./images/photo-grid-train.jpg" alt="Вид из окна поезда" class="photo-grid__item">
 			<img src="./images/photo-grid-atharva-tulsi.jpg" alt="Вид на облака и горы из окна самолета" class="photo-grid__item">
 			<img src="./images/photo-grid-tuman.jpg" alt="Собака на стоге сена" class="photo-grid__item">
@@ -50,10 +49,9 @@
 			<img src="./images/photo-grid-ergaki.jpg" alt="природный парк Ергак в тумане" class="photo-grid__item">
 		</section>
 		<section class="places">
-			<h3 class="places__title">Туристические места России</h3>
-			<article class="place">
+		<article class="place">
 				<h2 class="place__title">Куршская&nbsp; коса&nbsp;</h2>
-				<img src="./images/place-kosa.jpg" alt="Куршская коса" class="place__image">
+				<img src="./images/place-kosa.jpg" alt="Берег залива с камнями и корягами на фоне бескрайнего горизонта" class="place__image">
 				<div class="place__website">
 					<h3 class="place__url-heading">URL</h3>
 					<a href="http://park-kosa.ru" target="_blank" class="place__link">park-kosa.ru</a>
@@ -62,8 +60,8 @@
 					<p class="place__paragraph">Здесь, посреди лесов и песчаных дюн, вы сможете увидеть два водных горизонта — спокойного Куршского залива с одной стороны и подёрнутого рябью волн Балтийского моря с другой. Уникальная природная зона на&nbsp;краю российского анклава.</p>
 					<p class="place__paragraph">На этом Калининградская область не заканчивается. Для&nbsp;путешественника и&nbsp;исследователя там же по&nbsp;соседству — самая западная точка России, Балтийская коса, — и&nbsp;немецкое наследие россыпи небольших приморских городов. Атмосфера здешних мест исключает суету, окуная в&nbsp;спокойствие природы и запах&nbsp;стального, прохладного моря.</p>
 				</div>
-			</article>
-			<article class="place">
+		</article>
+		<article class="place">
 				<h2 class="place__title">Кольский</h2>
 				<img src="./images/place-kolsky.jpg" alt="Зимнее побережье" class="place__image">
 				<div class="place__website">
@@ -76,8 +74,8 @@
 					<p class="place__paragraph">Возможно, вы смотрели Звягинцева и даже слышали историю арктического фестиваля в Териберке. Возможно, слово «Хибины» не осталось под снегом школьных воспоминаний об уроках географии. Возможно, вы не интересовались пронизывающей земную кору сверхглубокой скважиной, а от апатитов вас давно накрывает апатия. Но ваша мечта увидеть северное сияние начинает сбываться с билетом
 						в Мурманск.</p>
 				</div>
-			</article>
-			<article class="place">
+		</article>
+		<article class="place">
 				<h2 class="place__title">Алтай</h2>
 				<img src="./images/place-altai.jpg" alt="Компьютер на фоне зеленого массива" class="place__image">
 				<div class="place__website">
@@ -89,8 +87,8 @@
 						В первую очередь из-за гор: если ехать вдоль хребта, вы увидите склоны, усыпанные соснами, горные реки и озёра. А&nbsp;если вы откроете в автомобиле окна, сможете познакомиться с невидимым чудом здешних мест — горным воздухом.</p>
 					<p class="place__paragraph">Климат на Алтае умеренный, поэтому ехать сюда лучше всего летом. Так вы увидите всё разнообразие местной флоры и фауны. По лесам Алтая бродят лоси, над хребтами летают орлы, а&nbsp;на равнинах пасутся косули. И&nbsp;знаменитые манулы — тоже обитатели Алтайского края.</p>
 				</div>
-			</article>
-			<article class="place">
+		</article>
+		<article class="place">
 				<h2 class="place__title">Зимний Байкал</h2>
 				<img src="./images/place-winter-baikal.jpg" alt="Замерзшая вода Байкала" class="place__image">
 				<div class="place__website">
@@ -102,8 +100,8 @@
 					<p class="place__paragraph">Конечно, это всё так. Но Байкал ещё идеальное место для соревнований по скийорингу. Это такой вид спорта, когда лыжник привязывает себя 
 						к мотоциклу, и&nbsp;тандем старается развить как можно бóльшую скорость на льду. В марте 2019 года на фестивале «Байкальская миля» был поставлен мировой&nbsp;рекорд — 197.011 км/ч.</p>
 				</div>
-			</article>
-			<article class="place">
+		</article>
+		<article class="place">
 				<h2 class="place__title">Карелия</h2>
 				<img src="./images/place-karelia.jpg" alt="Река в лесу" class="place__image">
 				<div class="place__website">
@@ -116,7 +114,7 @@
 						в паре метров от земли помечены медвежьими когтями. Чтобы все знали, кто тут хозяин.
 					</p>
 				</div>
-			</article>
+		</article>
 		</section>
 		<section class="cover">
 			<a class="cover__overlay" target="_blank" href="https://stampsy.com/na-elektrichkakh-do-baikala">

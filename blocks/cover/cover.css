@@ -17,7 +17,6 @@
 		max-width: 1024px;
 		min-height: 640px;
 		background-size: 1024px 640px;
-		background-position: center;
 		}
 }
 
@@ -27,7 +26,6 @@
 		min-height: 480px;
 		margin: 90px auto 0;
 		background-size: 768px 480px;
-		background-position: center;
 		}
 }
 
@@ -37,6 +35,5 @@
 		min-height: 200px;
 		margin: 66px auto 0;
 		background-size: 320px 200px;
-		background-position: center;
 }
 }
